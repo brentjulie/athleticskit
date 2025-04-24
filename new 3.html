@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EC Athletics Kit</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+    }
+    h2 {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 40px;
+    }
+    .category {
+      margin-bottom: 30px;
+    }
+    .category-title {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+      text-decoration: underline;
+    }
+    .item-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .item {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 10px;
+      width: 180px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .item img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .submit-button {
+      background-color: black;
+      color: red;
+      font-weight: bold;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 30px;
+      font-size: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>EC Athletics Kit</h1>
+  <h2>Combo price R1000</h2>
+
+  <form action="https://formspree.io/f/xdkgobye" method="POST">
+
+    <!-- Tracksuits -->
+    <div class="category">
+      <div class="category-title">Tracksuits</div>
+      <div class="item-container">
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/8vcm4yo7bsdz11sokm3he/b-red.png?rlkey=7c1k96ism2pcugd5am30r2d1u&raw=1" alt="Black/Red Tracksuit" />
+          <div><input type="checkbox" name="combo[]" value="Black/Red Tracksuit" /> Black/Red</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/hjd0hwibi55rk9cje58yh/b-white.png?rlkey=8jtpvnvdtoyq7fuurg1rmhabe&raw=1" alt="Black/White Tracksuit" />
+          <div><input type="checkbox" name="combo[]" value="Black/White Tracksuit" /> Black/White</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/skt0i6ygtxv0f5g0jxoia/red.png?rlkey=hp3wb3034vwbl5d2ow2zpe091&raw=1" alt="Red Tracksuit" />
+          <div><input type="checkbox" name="combo[]" value="Red Tracksuit" /> Red</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Caps -->
+    <div class="category">
+      <div class="category-title">Caps</div>
+      <div class="item-container">
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/b9nmalb147dzp9wsyuo9b/4.png?rlkey=e6iwuck5kt4aje30n3mgp35f5&raw=1" alt="Red/Silver Cap" />
+          <div><input type="checkbox" name="combo[]" value="Red/Silver Cap" /> Red/Silver</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/s1fnihpdmlv26tvqzxply/3.png?rlkey=wxrsgxm1zpcjxc24vmgm9ow56&raw=1" alt="Red/Black Cap" />
+          <div><input type="checkbox" name="combo[]" value="Red/Black Cap" /> Red/Black</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Bags -->
+    <div class="category">
+      <div class="category-title">Bags</div>
+      <div class="item-container">
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/0jat1l6bcsm8ifimlp9m9/6.png?rlkey=mhfs01oz0xacno1ot3jwn72jb&raw=1" alt="String Bag Black" />
+          <div><input type="checkbox" name="combo[]" value="String Bag Black" /> String Bag (Black)</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/hgwmifhw8vhsu3pvb5pix/8.png?rlkey=zustfkgrdyi5xi7lu9i23uti1&raw=1" alt="String Bag Red" />
+          <div><input type="checkbox" name="combo[]" value="String Bag Red" /> String Bag (Red)</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/cq1huui0hurkdnemi2xdh/5.png?rlkey=w7vpkibcbojdhayd00v6gq0go&raw=1" alt="Backpack" />
+          <div><input type="checkbox" name="combo[]" value="Backpack" /> Backpack</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/yyf0jd99buza8hgtxifii/7.png?rlkey=c04x1cp9knk7haj68p1p4qm08&raw=1" alt="Sling Bag" />
+          <div><input type="checkbox" name="combo[]" value="Sling Bag" /> Sling Bag</div>
+        </label>
+      </div>
+    </div>
+
+    <!-- Bottles -->
+    <div class="category">
+      <div class="category-title">Bottles</div>
+      <div class="item-container">
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/25khcktkn2geo2dx8ephx/10.png?rlkey=qrowqk0img51sdu0yx5c0eo7w&raw=1" alt="Black Stainless Steel Bottle" />
+          <div><input type="checkbox" name="combo[]" value="Black Stainless Steel Bottle" /> Black S/Steel</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/1qyivmtmkuiqg93u16r99/12.png?rlkey=cz3cbd09epd3k6mutagpbbcao&raw=1" alt="White Bottle" />
+          <div><input type="checkbox" name="combo[]" value="White Bottle" /> White</div>
+        </label>
+        <label class="item">
+          <img src="https://www.dropbox.com/scl/fi/bdhbde6g7a8tku8msn4zx/9.png?rlkey=953k72wy6fuqqmi3yen6wuz8s&raw=1" alt="Red Stainless Steel Bottle" />
+          <div><input type="checkbox" name="combo[]" value="Red Stainless Steel Bottle" /> Red S/Steel</div>
+        </label>
+      </div>
+    </div>
+
+    <button class="submit-button" type="submit">Submit Your Combo</button>
+  </form>
+</body>
+</html>
